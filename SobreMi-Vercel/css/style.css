@@ -1,0 +1,164 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuentes y base */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Encabezado */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Sección Hero */
+.hero {
+    background: #009688;
+    color: white;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.hero .cta-btn {
+    background-color: #ff5722;
+    padding: 0.5rem 2rem;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.hero .cta-btn:hover {
+    background-color: #e64a19;
+}
+
+/* Contenedor común */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/* Sección de Sobre mí */
+#sobre-mi {
+    background-color: #fff;
+    padding: 3rem 0;
+}
+
+#sobre-mi p {
+    font-size: 1.1rem;
+}
+
+/* Sección de Servicios */
+#servicios {
+    background-color: #eeeeee;
+    padding: 3rem 0;
+}
+
+#servicios ul {
+    list-style-type: none;
+}
+
+#servicios ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Testimonios */
+#testimonios {
+    background-color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#testimonios blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+/* Formulario de contacto */
+#contacto {
+    background-color: #eeeeee;
+    padding: 3rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input,
+form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: #00796b;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
